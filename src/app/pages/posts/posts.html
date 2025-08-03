@@ -1,1 +1,8 @@
-<p>posts works!</p>
+<div class="posts-list">
+    @for (post of postsLoaded$.value(); track post.id) {
+    <div class="post-card">
+        <h3 class="post-title">{{ post.title }}</h3>
+        <p class="post-body">{{ post.body }}</p>
+    </div>
+    }
+</div>

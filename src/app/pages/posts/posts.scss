@@ -1,0 +1,36 @@
+:host {
+    .posts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 1rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .post-card {
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(60, 64, 67, 0.08);
+        padding: 1.5rem 2rem;
+        transition: box-shadow 0.2s;
+        border-left: 4px solid #1976d2;
+    }
+
+    .post-card:hover {
+        box-shadow: 0 4px 16px rgba(25, 118, 210, 0.12);
+    }
+
+    .post-title {
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: #1976d2;
+        margin-bottom: 0.5rem;
+    }
+
+    .post-body {
+        font-size: 1.05rem;
+        color: #424242;
+        margin-bottom: 0;
+    }
+}
