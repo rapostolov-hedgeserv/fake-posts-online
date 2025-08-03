@@ -1,0 +1,87 @@
+.home-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 1rem;
+    background: linear-gradient(135deg, #e3f2fd 0%, #fff 100%);
+    min-height: 80vh;
+}
+
+.home-hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+}
+
+.home-hero p {
+    font-size: 1.2rem;
+    color: #424242;
+    margin-bottom: 2rem;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stat-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(60, 64, 67, 0.08);
+    padding: 1.5rem 2.5rem;
+    text-align: center;
+    min-width: 120px;
+    margin: 0.5rem 0;
+    transition: box-shadow 0.2s;
+}
+
+.stat-card:hover {
+    box-shadow: 0 4px 16px rgba(25, 118, 210, 0.12);
+}
+
+.stat-card h2 {
+    font-size: 2rem;
+    color: #1976d2;
+    margin: 0;
+}
+
+.stat-card span {
+    font-size: 1rem;
+    color: #616161;
+}
+
+.hero-latest {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 2rem;
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(60, 64, 67, 0.06);
+    padding: 1.5rem 2rem;
+}
+
+.hero-latest h3 {
+    font-size: 1.2rem;
+    color: #1976d2;
+    margin-bottom: 0.5rem;
+}
+
+.hero-latest ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.hero-latest li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #424242;
+}
+
+.hero-latest li:last-child {
+    border-bottom: none;
+}
